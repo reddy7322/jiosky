@@ -21,6 +21,7 @@ async function generatePlaylist() {
       if (!manifest || !id) continue;
 
       let clearkey = "";
+
       try {
         const keyRes = await fetch(`${KEY_BASE}${id}`);
         const keyJson = await keyRes.json();
@@ -47,7 +48,7 @@ async function generatePlaylist() {
     console.log("✅ play.m3u generated successfully");
 
   } catch (error) {
-    console.error("Generation failed:", error);
+    console.error("❌ Generation failed:", error);
     process.exit(1);
   }
 }
