@@ -2,7 +2,7 @@ name: Auto Generate Playlist
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # Every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout Repo
         uses: actions/checkout@v3
 
       - name: Setup Node
@@ -29,5 +29,5 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add play.m3u
-          git commit -m "Auto update playlist"
+          git commit -m "Auto update playlist" || echo "No changes"
           git push
