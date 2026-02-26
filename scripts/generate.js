@@ -1,4 +1,5 @@
 import fs from "fs";
+import path from "path";
 
 const API_URL = "https://gist.githubusercontent.com/AlloTomato/6f8f29bd39339b38959888ea3948cdfe/raw/tplayygxapidata.json";
 const KEY_BASE = "https://tvtskey.vercel.app/key/";
@@ -43,11 +44,19 @@ async function generatePlaylist() {
       output += `${manifest}\n\n`;
     }
 
-    fs.writeFileSync("./public/play.m3u", output);
-    console.log("play.m3u generated successfully");
+    // ✅ Ensure public folder exists
+    const publicDir = path.join(process.cwd(), "public");
+    if (!fs.existsSync(publicDir)) {
+      fs.mkdirSync(publicDir, { recursive: true });
+    }
+
+    fs.writeFileSync(path.join(publicDir, "play.m3u"), output);
+
+    console.log("✅ play.m3u generated successfully");
 
   } catch (error) {
     console.error("Generation failed:", error);
+    process.exit(1);
   }
 }
 
