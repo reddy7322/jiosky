@@ -992,7 +992,7 @@ https://bpaita6.akamaized.net/bpk-tv/irdeto_com_Channel_454/output/Manifest.mpd
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=p1G8G6vKWtqKyT/gwVRJDg:xPKJjXN83zV87kRKozhLdg
+#KODIPROP:inputstream.adaptive.license_key=DQMXtXwEWEKnAEg6RvEhLg:zZ8HpD6Jsyvzrxv8fmyEsg
 #EXTINF:-1 tvg-id="ts268" group-title="Spiritual" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/ETVLI_Thumbnail-v5/ETVLI_Thumbnail.png",ETV Life
 https://bpaita6.akamaized.net/bpk-tv/irdeto_com_Channel_538/output/Manifest.mpd
 
