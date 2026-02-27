@@ -164,7 +164,7 @@ https://bpaita4.akamaized.net/bpk-tv/irdeto_com_Channel_342/output/Manifest.mpd
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=iXHFr1p+VQeaSHLEhEv/sQ:W2LZ+WRrrg7oGf3FlHMdDg
+#KODIPROP:inputstream.adaptive.license_key=DQMXtXwEWEKnAEg6RvEhLg:zZ8HpD6Jsyvzrxv8fmyEsg
 #EXTINF:-1 tvg-id="ts44" group-title="News" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-126-j5fnf4ig-v2/imageContent-126-j5fnf4ig-m2.png",Seithigal TV
 https://bpaita2.akamaized.net/bpk-tv/irdeto_com_Channel_349/output/Manifest.mpd
 
@@ -200,7 +200,7 @@ https://bpaita2.akamaized.net/bpk-tv/irdeto_com_Channel_366/output/Manifest.mpd
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=gckLzHC/X52qqyDhP18eSA:HAmpklAlxNeSR5wm9dGLyQ
+#KODIPROP:inputstream.adaptive.license_key=DQMXtXwEWEKnAEg6RvEhLg:zZ8HpD6Jsyvzrxv8fmyEsg
 #EXTINF:-1 tvg-id="ts58" group-title="News" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-192-j5fsr3s0-v1/imageContent-192-j5fsr3s0-m1.png",News18 Tamil Nadu
 https://bpaita4.akamaized.net/bpk-tv/irdeto_com_Channel_373/output/Manifest.mpd
 
@@ -992,7 +992,7 @@ https://bpaita6.akamaized.net/bpk-tv/irdeto_com_Channel_454/output/Manifest.mpd
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=DQMXtXwEWEKnAEg6RvEhLg:zZ8HpD6Jsyvzrxv8fmyEsg
+#KODIPROP:inputstream.adaptive.license_key=p1G8G6vKWtqKyT/gwVRJDg:xPKJjXN83zV87kRKozhLdg
 #EXTINF:-1 tvg-id="ts268" group-title="Spiritual" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/ETVLI_Thumbnail-v5/ETVLI_Thumbnail.png",ETV Life
 https://bpaita6.akamaized.net/bpk-tv/irdeto_com_Channel_538/output/Manifest.mpd
 
@@ -2387,6 +2387,12 @@ https://bpaita4.akamaized.net/bpk-tv/irdeto_com_Channel_970/output/Manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=ml4pXMznVWWRjvJPazPK+A:DiSHSCHAMW5EJ4SEIdrAqA
 #EXTINF:-1 tvg-id="ts775" group-title="Spiritual" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11408-j9jqmlvs-v6/imageContent-11408-j9jqmlvs-m4.png",DIVYA
 https://bpaita6.akamaized.net/bpk-tv/irdeto_com_Channel_969/output/Manifest.mpd
+
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=DQMXtXwEWEKnAEg6RvEhLg:zZ8HpD6Jsyvzrxv8fmyEsg
+#EXTINF:-1 tvg-id="ts781" group-title="News" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-47612-k2jw4vfc-v1/imageContent-47612-k2jw4vfc-m4.png",Prudent
+https://cable21tataplay.akamaized.net/prudentm.m3u8
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
